@@ -1,0 +1,84 @@
+* {
+	color: gold;
+	font-family: Dig;
+}
+
+body{
+	background-color: blue;
+}
+
+#wrapper {
+	width: 1024px;
+	height: inherit;
+	margin: 0 auto;
+}
+
+#setAlarm {
+	width: 1024px;
+	margin: 0 auto;
+	background-color: blue;
+	border: 2px solid gold;
+}
+
+.center{
+	text-align: center;
+	width: inherit;
+	padding: 25px 0;
+}
+
+#clock,
+#calen {
+	display: block;
+	margin-top: 25px; 
+	color: gold;
+	font-size: 24px;
+	font-family: Dig;
+}
+
+.modal {
+	width: 100%;
+	height: 100%;
+	top: 0; 
+	left: 0; 
+	position: absolute;
+	z-index: 999;
+	background-color: rgba(125,125,125,0.7);
+}
+
+.wind {
+	width: 1024px;
+	min-height: 250px;
+	margin: 250px auto;
+	background-color: rgba(0,0,0,0.7);
+	padding: 15px;
+}
+
+.wind form  div{
+	margin: 25px 0;
+}
+
+.wind .days input,
+.wind .days label {
+	margin: 15px 15px;
+}
+
+#hourWind,
+#minutWind {
+	margin: 10px auto;
+	width: 400px;
+}
+
+#hourWind input,
+#minutWind input {
+	width: 50px;
+	background-color: rgb( 49, 0, 98 );
+}
+
+#setHours {
+	margin-left: 37px;
+}
+
+#dayWind input {
+	margin: 15px 30px 15px 0;
+}
+

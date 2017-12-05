@@ -1,0 +1,67 @@
+#wrapper {
+	width: 1024px;
+	height: inherit;
+	margin: 0 auto;
+}
+
+
+
+
+#display {
+	width: 244px;
+	min-height: 455px;
+	background-color: black;
+	position: relative;
+}
+
+.block {
+	width: 20px;
+	height: 210px;
+	background-color: grey;
+	margin: 5px;
+	position: absolute;
+}
+
+.a1,
+.a4,
+.a7 {
+	width: 185px;
+	height: 20px;
+	left: 25px;
+}
+
+.a2,
+.a3 {
+	right: 0;
+}
+
+.a5,
+.a6	{
+	left: 0;
+}
+
+.a2,
+.a6 {
+	top: 5px;
+}
+
+.a3,
+.a5 {
+	bottom: 5px;
+}
+
+.a1 {
+	top: 0;
+}
+
+.a4 {
+	bottom: 0px;
+}
+
+.a7 {
+	top: 215px;
+}
+
+.gold {
+	background: gold;
+}

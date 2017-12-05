@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Будильник</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+</head>
+<body>
+	<div id="wrapper">
+		<div class="center">
+			<span id="clock"></span>
+			<span id="calen"></span>
+		</div>
+		<form action="">
+			<input id="setAlarm" type="button" value="Set Alarm" />
+		</form>
+		<audio id = "alarmSound" src="media/White%20stripes%20-%207%20Nations%20army.mp3" loop volume="0.1"></audio>
+	</div>
+	<script src="js/script.js"></script>
+	<script id="template" type = "gat">
+		<div class="wind">
+			<form>
+				<div id = "hourWind">
+					<lable for = "setHours">Set alarm hours </lable>
+					<input id="setHours" type="number" max = "23" min ="00" step ="01" placeholder="00" />
+				</div>
+				<div id = "minutWind">
+					<lable for = "setMinutes">Set alarm minutes </lable>
+					<input id="setMinutes" type="number" max = "59" min ="00" step ="01" placeholder="00" />
+				</div>
+				<div id = "dayWind">
+					<lable for = "monday">Monday</lable>
+					<input id = "monday" type="checkbox" />
+						
+					<lable for = "tuesday">Tuesday</lable>
+					<input id = "tuesday" type="checkbox" />
+						
+					<lable for = "wednsday">Wednsday</lable>
+					<input id = "wednsday" type="checkbox" />
+						
+					<lable for = "thursday">Thursday</lable>
+					<input id = "thursday" type="checkbox" />
+						
+					<lable for = "friday">Friday</lable>
+					<input id = "friday" type="checkbox" />
+						
+					<lable for = "saturday">Saturday</lable>
+					<input id = "saturday" type="checkbox" />
+						
+					<lable for = "sunday">Sunday</lable>
+					<input id = "sunday" type="checkbox" />
+				</div>
+				
+				<input id = "ok"type="button" value = "OK" />
+				<input id = "cancel" type="button" value = "Cancel" />
+			</form>
+		</div>
+
+		
+	</script>
+	<script id="template_2" type = "gat">
+		
+	</script>
+</body>
+</html>
